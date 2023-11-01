@@ -363,7 +363,7 @@
             SongTitles.forEach(elss => {
                 let {songName} = elss;
                 title.innerHTML = songName;
-
+                
             });
 
             makeAllBackground();
@@ -414,13 +414,79 @@
                 repeat_music(); 
             break;
             case "next":
-                nextt_music(); 
+                next_music(); 
             break;
             case "random":
                 random_music(); 
             break;
         }
-    })
+    });
+
+    const next_music = () =>{
+        if (index == songs.length){
+            index = 1 ;
+        } else {
+            index ++;
+        }
+        // index ++;
+            // console.log(index);
+            music.src = `audio/${index}.mp3`;
+            download_music.href = `audio/${index}.mp3`;
+            poster_master_play.src = `img/${index}.jpg`
+            music.play();
+            masterPlay.classList.remove('bi-play-fill');
+            masterPlay.classList.add('bi-pause-fill');
+
+
+            let SongTitles = songs.filter((els) =>{
+                return els.id == index;
+            });
+
+            SongTitles.forEach(elss => {
+                let {songName} = elss;
+                title.innerHTML = songName;
+                download_music.setAttribute('download' , songName);
+
+            });
+
+            makeAllBackground();
+            Array.from(document.getElementsByClassName('songItem'))[index - 1].style.background = "rgb(105, 105, 105, .1)";
+            makeAllPlays();
+            el.target.classList.remove('bi-play-circle-fill');
+            el.target.classList.add('bi-pause-circle-fill');
+            wave.classList.add('active1');
+    }
+    const repeat_music = () =>{
+        index;
+            music.src = `audio/${index}.mp3`;
+            download_music.href = `audio/${index}.mp3`;
+            poster_master_play.src = `img/${index}.jpg`
+            music.play();
+            masterPlay.classList.remove('bi-play-fill');
+            masterPlay.classList.add('bi-pause-fill');
+
+
+            let SongTitles = songs.filter((els) =>{
+                return els.id == index;
+            });
+
+            SongTitles.forEach(elss => {
+                let {songName} = elss;
+                title.innerHTML = songName;
+                download_music.setAttribute('download' , songName);
+
+            });
+
+            makeAllBackground();
+            Array.from(document.getElementsByClassName('songItem'))[index - 1].style.background = "rgb(105, 105, 105, .1)";
+            makeAllPlays();
+            el.target.classList.remove('bi-play-circle-fill');
+            el.target.classList.add('bi-pause-circle-fill');
+            wave.classList.add('active1');
+    }
+
+    
+    
 
 
 

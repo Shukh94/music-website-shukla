@@ -329,7 +329,7 @@ header .master-play .bar .bar2{
     width: 0%;
     height: 100%;
     top: 0;
-    transition: 1s linear;
+    transition: .1s linear;
 }
 
 
@@ -340,7 +340,8 @@ header .master-play .bar .dot{
     height: 5px;
     border-radius: 50%;
     left: 0px;
-    top: -1.5px;  
+    top: -1.5px; 
+    transition: .1s linear; 
 }
 
 header .master-play .bar .dot::before{
@@ -371,6 +372,7 @@ header .master-play .vol {
     height: 2px;
     background: rgb(105, 105, 170, .1);
     margin-left: 50px;
+    transition: .1s linear; 
 }
 
 header .master-play .vol .bi {
@@ -387,7 +389,7 @@ header .master-play .vol input {
     top: -6px;
     left: 0;
     cursor: pointer;
-    z-index: 999999999999999999999;
+    z-index: 999999999999999999999999999999999;
     opacity: 0;
 }
 
@@ -397,7 +399,7 @@ header .master-play .vol .vol_bar{
     width: 100%;
     height: 100%;
     top: 0;
-    transition: 1s linear;
+    transition: .1s linear;
 }
 
 header .master-play .vol .vol_dot{
@@ -408,6 +410,7 @@ header .master-play .vol .vol_dot{
     border-radius: 50%;
     left: 100px;
     top: -1.5px;  
+    transition: .1s linear;
 }
 
 header .master-play .vol .vol_dot::before{
