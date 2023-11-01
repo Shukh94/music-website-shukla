@@ -424,7 +424,7 @@
 
     const next_music = () =>{
         if (index == songs.length){
-            index = 1 ;
+            index = 1 
         } else {
             index ++;
         }
@@ -485,9 +485,9 @@
     
     const random_music = () =>{
         if (index == songs.length){
-            index = 1 ;
-        } else {
-            index = Math.floor((Math.random() * songs.length) + 1);
+            index = 1 
+        } else { 
+            index = Math.floor( (Math.random() * songs.length ) + 1);
         }
             music.src = `audio/${index}.mp3`;
             download_music.href = `audio/${index}.mp3`;
