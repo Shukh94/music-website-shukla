@@ -1,5 +1,5 @@
     
-    const music = new Audio ('audio/1.mp3');
+    const music = new Audio ('audio/arijit/1.mp3');
     // music.play();
 
 
@@ -349,7 +349,7 @@
         if (index > Array.from(document.getElementsByClassName('songItem')).length) {
             index = 1;
         }
-        music.src = `audio/arijit/${index}.mp3`;
+            music.src = `audio/arijit/${index}.mp3`;
             poster_master_play.src = `img/arijit/${index}.jpg`;
             music.play();
             masterPlay.classList.remove('bi-play-fill');
@@ -489,9 +489,9 @@
         } else { 
             index = Math.floor( (Math.random() * songs.length ) + 1);
         }
-        music.src = `audio/arijit/${index}.mp3`;
-        download_music.href = `audio/arijit/${index}.mp3`;
-        poster_master_play.src = `img/arijit/${index}.jpg`;
+            music.src = `audio/arijit/${index}.mp3`;
+            download_music.href = `audio/arijit/${index}.mp3`;
+            poster_master_play.src = `img/arijit/${index}.jpg`;
             music.play();
             masterPlay.classList.remove('bi-play-fill');
             masterPlay.classList.add('bi-pause-fill');
