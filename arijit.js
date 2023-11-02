@@ -7,126 +7,126 @@
 
         {
             id: '1',
-            songName: `Legion <br> 
-            <div class="subtitle">It's Always Blue</div>`,
-            poster: "img/1.jpg"
+            songName: `Agar Tum Saath Ho <br> 
+            <div class="subtitle">Tamasha</div>`,
+            poster: "img/arijit/1.jpg"
         },
         {
             id: '2',
-            songName: `Trap <br> 
-            <div class="subtitle">Cartel</div>`,
-            poster: "img/2.jpg"
+            songName: `Chhod diya<br> 
+            <div class="subtitle">Bazaar</div>`,
+            poster: "img/arijit/2.jpg"
         },
         {
             id: '3',
-            songName: `They Mad<br> 
-            <div class="subtitle">anonymous</div>`,
-            poster: "img/3.jpg"
+            songName: `khairiyat<br> 
+            <div class="subtitle">Chichhore</div>`,
+            poster: "img/arijit/3.jpg"
         },
         {
             id: '4',
-            songName: `Rich The Kid<br> 
-            <div class="subtitle">anonymous</div>`,
-            poster: "img/4.jpg"
+            songName: `Tujhe kitna chahne lage<br> 
+            <div class="subtitle">Kabir Singh</div>`,
+            poster: "img/arijit/4.jpg"
         },
         {
             id: '5',
-            songName: ` Heroes Tonight <br> 
-            <div class="subtitle">Johnning/div>`,
-            poster: "img/5.jpg"
+            songName: ` Humdard <br> 
+            <div class="subtitle">Ek Villain</div>`,
+            poster: "img/arijit/5.jpg"
         },
         {
             id: '6',
-            songName: `chori kiya re jiya <br> 
-            <div class="subtitle">Shreya Ghoshal and Sonu Nigam</div>`,
-            poster: "img/6.jpg"
+            songName: `Har kisiko nahi milta <br> 
+            <div class="subtitle">Boss</div>`,
+            poster: "img/arijit/6.jpg"
         },
         {
             id: '7',
-            songName: `Chand Sifarish <br> 
-            <div class="subtitle">Kailash Kher and Shaan
+            songName: `Kesariya <br> 
+            <div class="subtitle">Brahmastra
             </div>`,
-            poster: "img/7.jpg"
+            poster: "img/arijit/7.jpg"
         },
         {
             id: '8',
-            songName: `Tera Hone Laga Hoon<br> 
-            <div class="subtitle">Alisha Chinai, Atif Aslam, and Joi Barua
+            songName: `Thodi Jagah<br> 
+            <div class="subtitle"> Marjaavaan
             </div>`,
-            poster: "img/8.jpg"
+            poster: "img/arijit/8.jpg"
         },
         {
             id: '9',
-            songName: `Dance Pe Chance <br> 
-            <div class="subtitle">Labh Janjua and Sunidhi Chauhan
+            songName: `phir bhi tumko chahunga <br> 
+            <div class="subtitle">Half Girlfriend
             </div>`,
-            poster: "img/9.jpg"
+            poster: "img/arijit/9.jpg"
         },
         {
             id: '10',
-            songName: `Dheere Dheere Se Meri Zindagi Mein Aana <br> 
-            <div class="subtitle">Anuradha Paudwal & Kumar Sanu</div>`,
-            poster: "img/10.jpg"
+            songName: `soch na sake<br> 
+            <div class="subtitle">Air Lift</div>`,
+            poster: "img/arijit/10.jpg"
         },
         {
             id: '11',
-            songName: `Bahara <br> 
-            <div class="subtitle">Shreya Ghoshal, Sona Mohapatra, and Vishal–Shekhar</div>`,
-            poster: "img/11.jpg"
+            songName: `Bolna Mahi bolna <br> 
+            <div class="subtitle">Arijit Singh</div>`,
+            poster: "img/arijit/11.jpg"
         },
         {
             id: '12',
-            songName: `Bohut Pyar Karte hain <br> 
-            <div class="subtitle">Anuradha Paudwal</div>`,
-            poster: "img/12.jpg"
+            songName: `Aayat<br> 
+            <div class="subtitle">Bajirao Mastani</div>`,
+            poster: "img/arijit/12.jpg"
         },
         {
             id: '13',
-            songName: `Band Baja Baraat <br> 
-            <div class="subtitle">Band Baja Baraat</div>`,
-            poster: "img/13.jpg"
+            songName: `Laal Ishq<br> 
+            <div class="subtitle">Bajirao Mastani</div>`,
+            poster: "img/arijit/13.jpg"
         },
         {
             id: '14',
-            songName: `Baazigar <br> 
-            <div class="subtitle">Alka Yagnik & Kumar Sanu</div>`,
-            poster: "img/14.jpg"
+            songName: `Dil sambhal ja zara <br> 
+            <div class="subtitle">Arijit Singh</div>`,
+            poster: "img/arijit/14.jpg"
         },
         {
             id: '15',
-            songName: `Safar mein dhoop to hogi <br> 
-            <div class="subtitle">Chitra Singh</div>`,
-            poster: "img/15.jpg"
+            songName: `Raaz ankhei teri <br> 
+            <div class="subtitle">Raaz</div>`,
+            poster: "img/arijit/15.jpg"
         },
         {
             id: '16',
-            songName: `O re Piya <br> 
-            <div class="subtitle">Rahat Fateh  Ali Khan</div>`,
-            poster: "img/16.jpg"
+            songName: `Beche theke laabh ki bol <br> 
+            <div class="subtitle">Arijit Singh </div>`,
+            poster: "img/arijit/16.jpg"
         },
         {
             id: '17',
-            songName: `Bin tere <br> 
-            <div class="subtitle">I hate Love Story</div>`,
-            poster: "img/17.jpg"
+            songName: `Bojhena shey bojhena <br> 
+            <div class="subtitle">Bojhena shey bojhena </div>`,
+            poster: "img/arijit/17.jpg"
         },
         {
             id: '18',
-            songName: `Bin tere sanam <br> 
-            <div class="subtitle">Dirty decks remix</div>`,
-            poster: "img/18.jpg"
+            songName: `Mon majhire <br> 
+            <div class="subtitle">Arijit Singh</div>`,
+            poster: "img/arijit/18.jpg"
         },
         {
             id: '19',
-            songName: `Bolna Halke Halke <br> 
-            <div class="subtitle">Rahat Fateh Ali Khan</div>`,
-            poster: "img/19.jpg"
+            songName: `Tomake chhuye dilam <br> 
+            <div class="subtitle">Bastu Shap</div>`,
+            poster: "img/arijit/19.jpg"
         },
         {
             id: '20',
-            songName: `Mitwa <br> 
-            <div class="subtitle">Kaal Ho na ho</div>`,
-            poster: "img/20.jpg"
+            songName: `Tor ek kothaye <br> 
+            <div class="subtitle">Besh korechi prem korechi</div>`,
+            poster: "img/arijit/20.jpg"
         }
     ]
 
@@ -211,9 +211,9 @@
         e.addEventListener('click' , (el) => {
             index = el.target.id;
             // console.log(index);
-            music.src = `audio/${index}.mp3`;
-            download_music.href = `audio/${index}.mp3`;
-            poster_master_play.src = `img/${index}.jpg`
+            music.src = `audio/arijit/${index}.mp3`;
+            download_music.href = `audio/arijit/${index}.mp3`;
+            poster_master_play.src = `img/arijit/${index}.jpg`;
             music.play();
             masterPlay.classList.remove('bi-play-fill');
             masterPlay.classList.add('bi-pause-fill');
@@ -318,8 +318,8 @@
         if (index < 1 ) {
             index = Array.from(document.getElementsByClassName('songItem')).length;
         }
-        music.src = `audio/${index}.mp3`;
-            poster_master_play.src = `img/${index}.jpg`
+        music.src = `audio/arijit/${index}.mp3`;
+            poster_master_play.src = `img/arijit/${index}.jpg`;
             music.play();
             masterPlay.classList.remove('bi-play-fill');
             masterPlay.classList.add('bi-pause-fill');
@@ -349,8 +349,8 @@
         if (index > Array.from(document.getElementsByClassName('songItem')).length) {
             index = 1;
         }
-        music.src = `audio/${index}.mp3`;
-            poster_master_play.src = `img/${index}.jpg`
+        music.src = `audio/arijit/${index}.mp3`;
+            poster_master_play.src = `img/arijit/${index}.jpg`;
             music.play();
             masterPlay.classList.remove('bi-play-fill');
             masterPlay.classList.add('bi-pause-fill');
@@ -428,9 +428,9 @@
         } else {
             index ++;
         }
-            music.src = `audio/${index}.mp3`;
-            download_music.href = `audio/${index}.mp3`;
-            poster_master_play.src = `img/${index}.jpg`
+            music.src = `audio/arijit/${index}.mp3`;
+            download_music.href = `audio/arijit/${index}.mp3`;
+            poster_master_play.src = `img/arijit/${index}.jpg`;
             music.play();
             masterPlay.classList.remove('bi-play-fill');
             masterPlay.classList.add('bi-pause-fill');
@@ -456,9 +456,9 @@
     }
     const repeat_music = () =>{
         index;
-            music.src = `audio/${index}.mp3`;
-            download_music.href = `audio/${index}.mp3`;
-            poster_master_play.src = `img/${index}.jpg`
+            music.src = `audio/arijit/${index}.mp3`;
+            download_music.href = `audio/arijit/${index}.mp3`;
+            poster_master_play.src = `img/arijit/${index}.jpg`;
             music.play();
             masterPlay.classList.remove('bi-play-fill');
             masterPlay.classList.add('bi-pause-fill');
@@ -489,9 +489,9 @@
         } else { 
             index = Math.floor( (Math.random() * songs.length ) + 1);
         }
-            music.src = `audio/${index}.mp3`;
-            download_music.href = `audio/${index}.mp3`;
-            poster_master_play.src = `img/${index}.jpg`
+        music.src = `audio/arijit/${index}.mp3`;
+        download_music.href = `audio/arijit/${index}.mp3`;
+        poster_master_play.src = `img/arijit/${index}.jpg`;
             music.play();
             masterPlay.classList.remove('bi-play-fill');
             masterPlay.classList.add('bi-pause-fill');
