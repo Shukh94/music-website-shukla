@@ -3,6 +3,8 @@
     // music.play();
 
 
+    // all song index
+
     const songs = [
 
         {
@@ -130,12 +132,16 @@
         }
     ]
 
+
+
+
     Array.from(document.getElementsByClassName('songItem')).forEach((e,i)=> {
     
         e.getElementsByTagName('img')[0].src = songs[i].poster;
         e.getElementsByTagName('h5')[0].innerHTML = songs[i].songName;
 
     })
+
 
         let masterPlay = document.getElementById('masterPlay');
         let wave = document.getElementById('wave');
@@ -153,6 +159,7 @@
         }
     })
 
+    // scroll effects
 
     let pop_song_left = document.getElementById('pop_song_left');
 
@@ -190,6 +197,10 @@
 
     });
 
+
+
+    // menu play bg and button add and remove
+
     let makeAllPlays = () => {
         Array.from(document.getElementsByClassName('playListPlay')).forEach((el) =>{
             el.classList.add('bi-play-circle-fill');
@@ -202,6 +213,10 @@
             el.style.background = 'rgb(105, 105, 105, .0)';
         } )
     }
+
+
+
+    // master play music poster
 
     let index = 0;
     let poster_master_play = document.getElementById('poster_master_play');
@@ -238,6 +253,9 @@
             wave.classList.add('active1');
         });
     });
+
+
+    // master play seek, butto, wave activate
 
         let currentStart = document.getElementById('currentStart');
         let currentEnd = document.getElementById('currentEnd');
@@ -280,6 +298,9 @@
 
     });
 
+
+    // master play volume up down
+
     let vol_icon = document.getElementById('vol_icon');
     let vol = document.getElementById('vol');
     let vol_bar = document.getElementsByClassName('vol_bar')[0];
@@ -309,6 +330,9 @@
         vol_dot.style.left = `${vol_a}%`;
         music.volume = vol_a / 100 ;
     });
+
+
+    // next back button activate
 
         let back = document.getElementById('back');
         let next = document.getElementById('next');
@@ -374,6 +398,9 @@
             wave.classList.add('active1');
     })
 
+
+    // shuffle button activate
+
     let shuffle = document.getElementsByClassName('shuffle')[0];
 
     shuffle.addEventListener('click' , () => {
@@ -421,6 +448,9 @@
             break;
         }
     });
+
+
+    // next, repeat, random activate
 
     const next_music = () =>{
         if (index == songs.length){

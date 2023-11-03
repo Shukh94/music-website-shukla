@@ -295,7 +295,7 @@ header .master-play .icon #download_music .bi {
 }
 
 header .master-play .icon .bi:nth-child(3) {
-    border: 1px solid rgb(105, 105, 105, 0.1);
+    /* border: 1px solid rgb(105, 105, 105, 0.1); */
     border-radius: 50%;
     padding: 1px 5px 0px 7px;
 }
@@ -527,6 +527,7 @@ header .song-side nav .search .search_results .card {
     background: rgb(184, 184, 184, 0.1);
     margin-bottom: 5px;
     text-decoration: none;
+    display: none;
 }
 
 header .song-side nav .search .search_results .card img{
